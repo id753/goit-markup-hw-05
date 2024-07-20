@@ -542,26 +542,33 @@
             </div>
 
             <div class="modal-textarea-container">
-              <label class="form-label" for="comment">Comment</label>
+              <label class="form-label" for="user-comment">Comment</label>
               <textarea
                 class="form-input form-textarea"
-                name="comment"
-                id="comment"
+                name="user-comment"
+                id="user-comment"
                 placeholder="Text input"
               ></textarea>
             </div>
             <div class="modal-checkbox-container">
-              <label class="form-label" for="checkbox"></label>
               <input
-                class="form-checkbox"
+                class="form-checkbox  visually-hidden"
                 type="checkbox"
-                name="accept-policy"
-                value="accept-policy"
+                id="user-privacy"
+                name="user-privacy"
+                value="true"
               />
-              <p>
+              <label class="form-label" for="user-privacy">
+                <span class="">
+                  <svg class="accept-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                  </svg>
                 I accept the terms and conditions of the
-                <a href=""> Privacy Policy</a>
-              </p>
+                <a href="" class="privacy"> Privacy Policy</a>
+              </span>
+            </label>
+
+              
             </div>
             <button class="modal-form-button" type="submit">Send</button>
           </div>
