@@ -649,9 +649,9 @@ color: #fff;
 justify-content: flex-start;
 flex-direction: row;
 gap: 4px; */
-.modal-form-container {
+/* .modal-form-container {
   margin-bottom: 8px; 
-}
+} */
 .modal-title{
   font-weight: 500;
 font-size: 16px;
@@ -699,6 +699,7 @@ margin-right: 24px;
 }
 .form-input-container {
   position: relative;
+  margin-bottom: 8px; 
 }
 .form-input-icon {
 position: absolute;
